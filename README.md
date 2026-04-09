@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
-### Carrera de [Nombre de la Carrera]  
+# Universidad UNIVERSIDAD TÉCNICA DE AMBATO 
+## Facultad de FACULTAD DE INGENIERÍA EN SISTEMAS, ELECTRONICA E IDUSTRIAL  
+### Carrera de SOFTWARE  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** DAVID ALEXANDER PÉREZ ÁLVAREZ 
+**Fecha:** 08/04/2026
 
 ---
 
@@ -41,8 +41,39 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+- Git clone: El comando git clone se utiliza para clonar un repositorio existente en una ubicación local en el sistema de archivos.
+- Git fork: El comando git fork se utiliza para crear una copia de un repositorio existente en una cuenta de GitHub personal.
+- Git pull: El comando git pull se utiliza para obtener actualizaciones de un repositorio remoto en una rama local.
+
+
+- ¿Cómo se realizó el fork?
+1.- Se accede al repositorio original.
+
+![imagen1](images/folk1.png)
+
+2.- Se crea un fork del repositorio original en la cuenta personal de GitHub.
+
+![imagen2](images/folk2.png)
+
+3.- Se ingresa una descripción
+4.- Se da clic en "Fork" y nos redirecciona a la copia del repositorio.
+
+![imagen3](images/folk.png)
+
+
+- ¿Cómo se realizó el clone?
+1.- Se accede al repositorio folk en GitHub.
+2.- Se copia el URL del repositorio.
+![imagen4](images/clone1.png)
+3.-Entramos a Git Bash y se ingresa el comando git clone y pegamos el URL del repositorio.
+![imagen5](images/Clone2.png)
+
+-¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+Se verifica que estamos trabajando en la copia del repositorio en la cuenta personal de GitHub. Ya que este cuenta con un mensaje de verificación de fork en la cuenta personal de GitHub.
+![imagen6](images/Verificar1.png)
 
 ---
+
 
 ## Pregunta 2 (1 punto)
 
@@ -62,8 +93,33 @@
 - Solo el **tercer commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+1.- Primer comit
+- Creamos el archivo .gitignore
+![imagen7](images/ignore.png)
+- Asignamos las reglas de exclusión.
+![imagen8](images/ignore2.png)
+-Realizamos el primer commit
+![imagen9](images/ignore3.png)
+-Validamos que se haya hecho el commit.
+![imagen10](images/ignore4.png)
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+2.- Segundo comit
+-Creamos los archivos de prueba.
+![imagen11](images/Pruebaignore1.png)
+-Realizamos el segundo commit
+![imagen12](images/Pruebaignore2.png)
+-Validamos que se haya hecho el commit.
+![imagen13](images/Pruebaignore3.png)
+-Creamos archivos dentro de la carpeta doc con un tercer commit.
+![imagen14](images/PruebaIgnore4.png)
+
+3.- Tercer comit
+- Dentro de git bash se ingresa git status --ignored, nos dara como resultado la carpeta y archivos que se estan ignorando, en este caso solo la carpeta doc.
+![imagen15](images/Pruebastatusig.png)
+- Ademas agregamos el tag 'Pregunta 2'
+![imagen16](images/Asignacion%20de%20tag.png.png)
+
+
 
 ---
 
@@ -92,6 +148,18 @@
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+
+1.- Inicializamos el repositorio con git flow
+![imagen17](images/gitflow1.png)
+
+2.- Creamos la rama de tipo feature con el nombre ingresar-encabezado
+![imagen18](images/encabezado1.png)
+
+3.- Modificamos el encabezado del README
+![imagen19](images/encabezado2.png)
+
+4.- Realizamos un commit
+
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 

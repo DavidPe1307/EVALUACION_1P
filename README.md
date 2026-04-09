@@ -92,7 +92,6 @@ Se verifica que estamos trabajando en la copia del repositorio en la cuenta pers
 **Importante:**  
 - Solo el **tercer commit** debe llevar el **tag `"Pregunta 2"`**.
 
-**📝 Respuesta:**
 1.- Primer comit
 - Creamos el archivo .gitignore
 ![imagen7](images/ignore.png)
@@ -121,6 +120,9 @@ Se verifica que estamos trabajando en la copia del repositorio en la cuenta pers
 
 
 
+**📝 Respuesta:**
+
+
 ---
 
 ## Pregunta 3 (2 puntos)
@@ -147,8 +149,6 @@ Se verifica que estamos trabajando en la copia del repositorio en la cuenta pers
 - **Solo el commit final** debe llevar el **tag `"Pregunta 3"`**.
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
-**📝 Respuesta:**
-
 1.- Inicializamos el repositorio con git flow
 ![imagen17](images/gitflow1.png)
 
@@ -159,7 +159,30 @@ Se verifica que estamos trabajando en la copia del repositorio en la cuenta pers
 ![imagen19](images/encabezado2.png)
 
 4.- Realizamos un commit
+![imagen20](images/actualizacionencabezado.png)
 
+5.- Finalizamos la rama
+![imagen21](images/finalizacion.png.png)
+
+
+**📝 Respuesta:**
+
+Comandos utilizados
+* git flow init
+* git flow feature start ingresar-encabezado
+* git flow feature finish ingresar-encabezado
+
+Proceso seguido
+* Inicializamos el repositorio con git flow
+* Creamos la rama de tipo feature con el nombre ingresar-encabezado
+* Modificamos el encabezado del README
+* Realizamos un commit
+* Finalizamos la rama
+
+Ventajas de aplicar Git Flow
+* Facilita la gestión de ramas
+* Separación entre desarrollo y producción
+* Facilita la colaboración en proyectos de larga duración
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
@@ -191,7 +214,8 @@ Se verifica que estamos trabajando en la copia del repositorio en la cuenta pers
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+1. ¿Qué es un Pull Request y cuál es su función dentro de un flujo colaborativo?
+Un Pull Request (PR) es una solicitud que realiza un desarrollador para proponer cambios en un repositorio, generalmente desde una rama (por ejemplo, feature) hacia otra (como main o develop). Su función principal es permitir la revisión, discusión y validación del código antes de integrarlo al proyecto principal, facilitando el trabajo colaborativo y el control de versiones.
 
 ---
 
